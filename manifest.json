@@ -1,0 +1,23 @@
+{
+  "name": "wReader",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/libs/angular-1.0.1.min.js", "js/store.js", "js/background.js"]
+    }
+  },
+  "permissions": [
+    "experimental",
+    "appWindow",
+    "storage",
+    "unlimitedStorage",
+    "alarms",
+    "*://blog.chromium.org/feeds/*"
+  ],
+  "sandbox": {
+    "pages": [
+      "post-content.html"
+    ]
+  }
+}
