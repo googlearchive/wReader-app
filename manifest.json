@@ -9,7 +9,6 @@
   },
   "permissions": [
     "experimental",
-    "appWindow",
     "storage",
     "unlimitedStorage",
     "alarms",
