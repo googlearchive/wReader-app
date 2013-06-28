@@ -1,7 +1,7 @@
 var wReader = angular.module('wReader', ['wReader.filters', 'wReader.services', 'wReader.directives', 'wReader.store']);
 
 wReader.run(function(items) {
-  chrome.extension.onMessage.addListener(function(request) {
+  chrome.runtime.onMessage.addListener(function(request) {
     if (request != 'feedsUpdated') return;
     items.getItemsFromDataStore();
   });
