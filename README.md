@@ -15,6 +15,7 @@ wReader is a simple web feed reader implemented as a Chrome Platform app using [
 6. Check `Developer Mode`
 7. Click on `Load unpacked extension...` and select the root of this projects directory
 8. Open new tab and click on `wReader` icon
+9. if you not able to undarstand please go our office website and follow the instraction use watch video .
 
 
 ## Architecture
@@ -31,4 +32,5 @@ wReader is a simple web feed reader implemented as a Chrome Platform app using [
   - [`sandboxed pages`](http://code.google.com/chrome/extensions/dev/manifest.html#sandbox)
 - [AngularJS](http://angularjs.org/)
 - [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+
 
